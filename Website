@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willkommen auf meiner erweiterten Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .content {
+            max-width: 800px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+            text-align: center;
+        }
+        .image-container {
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .map-container {
+            margin-top: 20px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meiner erweiterten Webseite!</h1>
+    </header>
+    
+    <div class="content">
+        <p>Erkunde die Inhalte dieser Seite, einschließlich eines Bildes und einer Wegbeschreibung über Google Maps.</p>
+        
+        <div class="image-container">
+            <h2>Ein schönes Bild</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Ein Beispielbild">
+        </div>
+        
+        <div class="map-container">
+            <h2>Google Maps Wegbeschreibung</h2>
+            <p>Hier ist eine Wegbeschreibung zu einem beliebten Ziel:</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999829151651!2d2.2944812156749797!3d48.85837007928766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f09c5b2a9fb%3A0x4e56d55acbe08756!2sEiffelturm!5e0!3m2!1sde!2sde!4v1617843180916!5m2!1sde!2sde"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+            <p>Falls du die Route direkt in Google Maps öffnen möchtest, <a href="https://goo.gl/maps/yRSGw4Ku7dn" target="_blank">klicke hier</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
